@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5669768cc2fae9b4a8ec528ce9933042, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  baseFirePower: 3
+  baseFireRate: 0.5
+  baseFireRange: 4
+  bulletPoint: {x: 0, y: 0.311, z: 0.469}
+  bulletPrefab: {fileID: 4917976599090037923, guid: 8efc435780f47c647873032f2ee240fb, type: 3}
+  minHumanCount: 6
+  maxHumanCount: 9
+  humanList:
+  - humanPose: pose_01
+    humanPositions: {x: -0.002, y: 0.27923056, z: -0.2148483}
+    humanRotation: {x: 90, y: 0, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.002, y: 0.319, z: -0.21484835}
+    humanRotation: {x: 90, y: 0, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 1, g: 0.8862745, b: 0, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.0035556396, y: 0.319, z: -0.504}
+    humanRotation: {x: 90, y: 0.00067253195, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.003555982, y: 0.27923056, z: -0.532}
+    humanRotation: {x: 90, y: 0.00067253195, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: 0, y: 0.3389923, z: -0.30284756}
+    humanRotation: {x: 73.95331, y: -0.0000131064535, z: 179.99965}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.91764706, g: 0.69803923, b: 0.28235295, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: 0, y: 0.3772121, z: -0.3138407}
+    humanRotation: {x: 73.95331, y: -0.0000131064535, z: 179.99965}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.91764706, g: 0.69803923, b: 0.28235295, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.0033162232, y: 0.327, z: -0.481}
+    humanRotation: {x: 90, y: 0.0006785691, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_07
+    humanPositions: {x: 0.007925263, y: 0.372, z: -0.681}
+    humanRotation: {x: 273.16644, y: 269.99976, z: 269.99957}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.002, y: 0.371, z: -0.21484835}
+    humanRotation: {x: 90, y: 0, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}

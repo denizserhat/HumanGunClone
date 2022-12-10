@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5669768cc2fae9b4a8ec528ce9933042, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  weaponName: Pistol
+  baseFirePower: 1
+  baseFireRate: 0.4
+  baseFireRange: 6
+  bulletPoint: {x: 0, y: 0.311, z: 0.522}
+  bulletPrefab: {fileID: 4917976599090037923, guid: 8efc435780f47c647873032f2ee240fb, type: 3}
+  minHumanCount: 0
+  maxHumanCount: 4
+  humanList:
+  - humanPose: pose_03
+    humanPositions: {x: 0, y: 0, z: 0}
+    humanRotation: {x: -0, y: 0, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: 0.007763387, y: 0.391, z: 0.3669947}
+    humanRotation: {x: 90, y: 180.00102, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: -0.0000033464748, y: 0.44, z: -0.245}
+    humanRotation: {x: 90, y: 0.00067856925, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 1}
+  - humanPose: pose_01
+    humanPositions: {x: 0.009316436, y: 0.491, z: 0.343}
+    humanRotation: {x: 90, y: 180.00102, z: 0}
+    humanScale: {x: 1.2, y: 1.2, z: 1.2}
+    humanColor: {r: 0.9137255, g: 0.21960784, b: 0.21960784, a: 1}
